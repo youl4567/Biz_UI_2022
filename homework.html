@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+        }
+        header {
+            display: block;
+            color: whitesmoke;
+            text-align: center;
+        }
+        header div {
+            padding: 50px;
+            background-color: rgb(30, 143, 208);
+        }
+        header ul {
+            list-style-type: none;
+            display :flex;
+            padding: 20px;
+            margin-left : 10px;
+            background-color: rgba(77, 70, 70, 0.819);
+            border-radius: 10px;
+        }
+        header li {
+            margin-left: 20px;
+        }
+        header #li4 {
+            float: right;
+            margin-left: 80%;
+        }
+        body {
+            width:100%;
+        }
+        body table {
+            width: 80%;
+            text-align: center;
+            margin: 30px auto;
+            border : 1px solid rgb(87, 84, 84);
+            border-collapse: collapse;
+        }
+        td, th {
+            height: 30px;
+            border: 1px solid rgb(87, 84, 84);
+        }
+        th{
+        border-left: 1px solid rgb(171, 171, 166);
+        border-right: 1px solid rgb(171, 171, 166);}
+td{
+        border-left: 1px solid white;
+        border-right: 1px solid white;}
+        #tr1 {
+            background-color: rgb(171, 171, 166);
+        }
+        #button1 {
+            padding: 0;
+            font-weight: 500;
+            font-size: 18px;
+            width: 150px;
+            height: 50px;
+            color: wheat;
+            text-align: center;
+            align-items: center;
+            align-content: center;
+            justify-content: center;
+            display: flex;
+            background-color: rgb(89, 119, 253);
+            margin-left: 80%;
+        }
+      
+    </style>
+</head>
+<header>
+    <div>
+        <h1>고려 고교 학사관리 2022 v1</h1>
+    </div>
+    <nav>
+        <ul>
+            <li>HOME</li>
+            <li>학생정보</li>
+            <li>성적일람표</li>
+            <li id="li4">로그인</li>
+        </ul>
+    </nav>
+</header>    
+<body>
+    <table>
+        <colgroup>
+        <col width="25%">
+        <col width="15%">
+        <col width="15%">
+        <col width="15%">
+        <col width="15%">
+        <col width="15%">
+        </colgroup>
+    <tr id="tr1">
+        <th>학번</th>
+        <th>이름</th>
+        <th>전공</th>
+        <th>학년</th>
+        <th>주소</th>
+        <th>전화번호</th>
+    </tr>
+    <tr>
+        <td>20210001</td>
+        <td>홍길동</td>
+        <td>컴퓨터공학과</td>
+        <td>2</td>
+        <td>서울시 동대문구</td>
+        <td>02-222-1234</td>
+    </tr>
+    <tr>
+        <td>20210001</td>
+        <td>홍길동</td>
+        <td>컴퓨터공학과</td>
+        <td>2</td>
+        <td>서울시 동대문구</td>
+        <td>02-222-1234</td>
+    </tr>
+    </table>
+    <div ><input type="button" value="학생정보추가" id="button1" ><div>
+</body>
+</html>
